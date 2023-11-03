@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DEMO 3  Semana 1 </title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Cadastro de usuário</legend>
+
+                <label for="input-nome">Username:</label>
+                <input id="input-nome" type="email" name="nome" placeholder="mail@email.com" required/>
+
+                <label for="input-senha">Senha:</label>
+                <input id="input-senha" type="password" name="senha" required/>
+
+                <label for="input-color">Cor do perfil:</label>
+                <input id="input-color" type="color" name="cor">
+
+                <section>
+                    <p>Selecione a turma:</p>
+                    <div>
+                        <input type="radio" name="turma" value="t20">
+                        <label>T20</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="turma" value="t21">
+                        <label>T21</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="turma" value="t22">
+                        <label>T22</label>
+                    </div>
+                </section>
+                
+                <label>Intrutor(a):</label>
+                <select name="instrutor">
+                    <option value="alex">Alexander</option>
+                    <option value="chrys">Chrystian</option>
+                    <option value="lore">Lorena</option>
+                    <option value="TK">Thiago</option>
+                </select>
+                
+                <section>
+                    <label>Descrição:</label>
+                    <br>
+                    <textarea cols="12" rows="5" maxlength="60" name="descricao" placeholder="Inisira uma descrição aqui..."></textarea>
+                </section>
+
+                <input type="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
