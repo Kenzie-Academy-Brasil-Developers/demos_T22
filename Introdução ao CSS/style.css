@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lato&display=swap');
+
+/* Seletor de tag */
+body{
+    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    background: #808080;
+}
+p{
+    line-height: 22px;
+    color: rgb(239, 149, 212);
+}
+
+
+/* Seletor de classe*/
+.color-red{
+    color: red
+}
+.color-green{
+    color: greenyellow;
+}
+.font-big{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Agbalumo', sans-serif;
+}
+
+/* Seletor de id */
+#elemento-teste{
+    color: blue;
+}
+#id-teste{
+    color: yellow;
+}
+
+
+/* Seletor universal */
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+
