@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Seletor de tag*/
+span{
+    color: red;
+    color: rgb(255, 0, 0);
+    color: #ff0000;
+    background: black;
+}
+body{
+    background: grey;
+}
+li{
+    color: white;
+}
+p{
+    border: 2px solid purple;
+}
+
+/* Seletor de classe */
+.color-green{
+    color: green;
+}
+
+.big-font{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+/* Seletor de id */
+#elemento-teste{
+    color: yellow;
+}
+
+#elementoLista-2{
+    color: blue;
+}
+
+/* Seletor universal */
+*{
+    font-family: 'Lato', sans-serif;
+}
