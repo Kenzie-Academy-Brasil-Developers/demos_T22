@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Montserrat&display=swap');
+/* section{
+    background: rgb(198, 198, 198);
+    width: 50%;
+    font-size: 12px;
+}
+
+div{
+    width: 50vw;
+    display: inline-block;
+    
+}
+
+.bg-red{
+    background: red;
+    font-size: 1.2rem;
+}
+.bg-blue{
+    background: blue;
+    color: white;
+    font-size: 0.8rem;
+} */
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+figure, nav, .btn-header{
+    display: inline-block;
+    text-align: center;
+}
+
+header{ 
+    background: white;
+    height: 80px;
+    padding: 0px; 
+}
+
+figure{
+    width: 20%;
+}
+.logo-header{
+    width: 150px; 
+}
+nav{
+    width: 60%; 
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 0.8em;
+    margin: 0 5px;
+}
+
+.btn-header{
+    width: 19.15%;
+    background: blue;
+    color:white;
+    border: 0;
+    height: 100%;
+}
+
+.banner{
+    background: black;
+    color: white;
+    padding: 20px;
+    background-image: url('https://kenzie.com.br/images/hero-home-dkt.png');
+    background-size: cover;
+}
+
+.content-banner{
+    width: 40%;
+    margin-left: 50px;
+}
+
+.logo-banner{
+    width: 90px;
+}
+
+h2{
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 1.3em;
+
+    margin-top: 8px;
+    margin-bottom: 20px;
+
+    font-family: 'JetBrains Mono', monospace;
+}
+
+p{
+    line-height: 1.2em;
+    margin-bottom: 15px
+}
+
+.btn-banner{
+    background: none;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 8px 20px;
+    width: 100%;
+}
