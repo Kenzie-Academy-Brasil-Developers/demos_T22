@@ -1,0 +1,25 @@
+div{
+    border: 4px solid black;
+    background: green;
+    color: white;
+    width: 24%;
+    height: 30%;
+    /* display: inline-block; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+section{
+    background: grey;
+    display: flex;
+
+    height: 200px;
+
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
