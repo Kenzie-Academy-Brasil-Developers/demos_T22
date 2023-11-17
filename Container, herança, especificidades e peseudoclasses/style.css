@@ -1,0 +1,108 @@
+body{
+    background: rgb(221, 221, 221);
+}
+
+header{
+    background: rgb(170, 248, 170); 
+}
+
+h3{
+    font-size: 2em;
+}
+
+main .container{
+    background: white;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main section{
+    /* border: 2px solid red; */
+}
+
+main > section{
+    /* color: blue;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px; */
+    /* border: 3px solid black; */
+}
+
+
+.card{
+    padding: 10px;
+    border: 2px solid red;
+}
+
+div h3{
+    color: rgb(255, 18, 57)
+}
+
+.card > h3{
+    color:  rgb(250, 136, 155)
+}
+
+.card > p{
+    color: rgb(150, 3, 28)
+}
+
+div > .card{
+    background: rgb(255, 225, 225);
+}
+
+
+.item{
+    padding: 20px;
+    background: white;
+    transition: 500ms;
+    border: 3px solid black;
+}
+
+.item:hover{
+    background: rgb(0, 0, 255);
+    color: white;
+    padding: 25px;
+    border: 3px solid white;
+}
+
+.item h4{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 500ms font-size;
+}
+
+.item p{
+    transition: 500ms font-size;
+}
+
+.item:hover p {
+    font-size: 1.1em;
+}
+
+.item:hover h4{
+    font-size: 1.4em;
+}
+
+input{
+    margin:20px; 
+    border: 0px;
+    border-bottom: 2px solid black;
+    transition: 500ms;
+    padding: 5px;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 2px solid red;
+    background: rgb(255, 255, 225);
+}
