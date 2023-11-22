@@ -1,0 +1,134 @@
+body{
+    background: rgb(233, 233, 233);
+}
+
+header h1{
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    /* padding-top: 15px; */
+}
+
+header{
+    background: white;
+    height: 60px;
+    /* box-sizing: border-box; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.5);
+}
+
+.flex{
+    display: flex;
+}
+
+main{
+    justify-content: space-between;
+    /* background: rgb(249, 248, 248); */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+main > section{
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 49%;
+    border-radius: 8px;
+    margin: 5px 0;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: 500ms;
+}
+
+.card:hover{
+    background: white;
+}
+
+.card:hover > img{
+    transform: scale(1.05);
+}
+
+.card > img{
+    width: 100%;
+    border-radius: 10px;
+    transition: 500ms;
+}
+
+.card > h3{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.card > p{
+    line-height: 1.5rem;
+}
+
+.flag-news > button{
+    border: 0;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+main > aside{
+    width: 30%;
+}
+
+.posts > h2{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.posts  h4::after{
+   content: ' [del]';
+   color: red; 
+}
+
+.post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.post > img{
+    width: 28%;
+    border-radius: 12px;
+}
+
+.post h4{
+    width: 70%;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+footer{
+    background: black;
+    color: white; 
+}
+
+footer > .content{
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+footer > .content > h2{
+    font-size: 1.5rem;
+}
+
+.icons > span{
+    margin: 0 5px;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+
+}
