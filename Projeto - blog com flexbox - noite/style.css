@@ -1,0 +1,123 @@
+*, h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: rgb(249, 249, 249);
+}
+
+header{
+    background: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.25);
+}
+
+header > h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px !important;
+}
+
+main > section{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 48%;
+    margin-bottom: 40px;
+}
+
+.card > img{
+    max-width: 100%;
+    border-radius: 14px;
+}
+
+.card > h4{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 1.6rem;
+    margin-top: 20px;
+}
+
+.card > p{
+    line-height: 1.6rem;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card > div > button{
+    border: none;
+
+}
+
+
+main > aside{
+    width: 30%;
+}
+
+.post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.post > img{
+    width: 30%;
+    border-radius: 12px;
+}
+
+.post > h5{
+    width: 67%;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+
+.posts > h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+footer{
+    background: black;
+    color: white;
+  
+    height: 120px;
+}
+
+footer > .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+footer h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.fa{
+    font-size: 1.5rem;
+    padding: 0 20px;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
