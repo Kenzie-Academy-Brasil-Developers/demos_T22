@@ -1,0 +1,17 @@
+Introdução:
+
+Javascript é apenas mais uma das diversas linguagens de programação.
+
+É diferente de html e css, javascript é usado para montar uma lógica para a nossa página.
+
+Até agora não programamos apenas aprendemos a estrutura e estilizar a nossa página.
+
+A partir de agora, vocês conseguirão resolver um mesmo problema de diversas formas diferentes.
+
+
+Algoritmo
+- Definição: Um algoritmo é uma sequência finita de ações executáveis que visam obter uma solução para um determinado tipo de problema.
+
+- liga a energia da máquina
+
+- colocar a roupa?
