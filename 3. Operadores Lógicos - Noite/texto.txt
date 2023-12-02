@@ -1,0 +1,4 @@
+se for admin
+se tempo de casa for maior que 2 anos
+se cargo for supervisor ou gerente
+se tiver no mínimo 5 membros na equipe e tiver uma secretaria ou sse tiver o cpf limpo e tiver 10 anos no mínimo de carteira de trabalho
